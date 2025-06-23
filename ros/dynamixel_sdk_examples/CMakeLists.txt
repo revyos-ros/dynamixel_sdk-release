@@ -12,23 +12,30 @@ endif()
 
 # Find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(ament_cmake_python REQUIRED)
 find_package(dynamixel_sdk REQUIRED)
 find_package(dynamixel_sdk_custom_interfaces REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclpy REQUIRED)
 
 include_directories(include)
 
 # Build
 add_executable(read_write_node src/read_write_node.cpp)
-ament_target_dependencies(read_write_node
-  dynamixel_sdk_custom_interfaces
-  dynamixel_sdk
-  rclcpp
+target_link_libraries(read_write_node PUBLIC
+  dynamixel_sdk::dynamixel_sdk
+  ${dynamixel_sdk_custom_interfaces_TARGETS}
+  rclcpp::rclcpp
 )
 
 # Install
 install(TARGETS
   read_write_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(PROGRAMS
+  src/read_write_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
