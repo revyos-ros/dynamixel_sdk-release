@@ -2,6 +2,20 @@
 Changelog for package dynamixel_sdk_examples
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.8.4 (2025-05-28)
+------------------
+* Deprecate ament_include_dependency usage in CMakeLists.txt
+* Contributors: Wonho Yun
+
+3.8.3 (2025-03-31)
+------------------
+* None
+
+3.8.2 (2025-03-13)
+------------------
+* Added ROS 2 Python example
+* Contributors: Wonho Yun
+
 3.8.1 (2025-02-12)
 ------------------
 * None
