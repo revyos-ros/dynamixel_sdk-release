@@ -2,6 +2,22 @@
 Changelog for package dynamixel_sdk
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.8.4 (2025-05-28)
+------------------
+* Deprecate ament_include_dependency usage in CMakeLists.txt
+* Contributors: Wonho Yun
+
+3.8.3 (2025-03-31)
+------------------
+* Modified the getError function for Group Read methods
+* Contributors: Wonho Yun
+
+3.8.2 (2025-03-13)
+------------------
+* Added Fast Sync Read, Fast Bulk Read features for Python
+* Added ROS 2 Python example
+* Contributors: Wonho Yun
+
 3.8.1 (2025-02-12)
 ------------------
 * Added Fast Sync Read, Fast Bulk Read features
