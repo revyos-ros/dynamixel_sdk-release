@@ -1,0 +1,41 @@
+ros-jazzy-dynamixel-sdk-examples (3.8.4-1noble) noble; urgency=high
+
+  * Deprecate ament_include_dependency usage in CMakeLists.txt
+  * Contributors: Wonho Yun
+
+ -- Pyo <pyo@robotis.com>  Wed, 28 May 2025 00:00:00 -0000
+
+ros-jazzy-dynamixel-sdk-examples (3.8.3-1noble) noble; urgency=high
+
+  * None
+
+ -- Pyo <pyo@robotis.com>  Mon, 31 Mar 2025 00:00:00 -0000
+
+ros-jazzy-dynamixel-sdk-examples (3.8.2-1noble) noble; urgency=high
+
+  * Added ROS 2 Python example
+  * Contributors: Wonho Yun
+
+ -- Pyo <pyo@robotis.com>  Thu, 13 Mar 2025 00:00:00 -0000
+
+ros-jazzy-dynamixel-sdk-examples (3.8.1-1noble) noble; urgency=high
+
+  * None
+
+ -- Pyo <pyo@robotis.com>  Wed, 12 Feb 2025 00:00:00 -0000
+
+ros-jazzy-dynamixel-sdk-examples (3.7.60-1noble) noble; urgency=high
+
+  * ROS 2 Humble Hawksbill supported
+  * Contributors: Will Son
+
+ -- Pyo <pyo@robotis.com>  Fri, 03 Jun 2022 00:00:00 -0000
+
+ros-jazzy-dynamixel-sdk-examples (3.7.40-1noble) noble; urgency=high
+
+  * Add ROS 2 basic example
+  * Contributors: Will Son
+
+ -- willson <willson@robotis.com>  Wed, 14 Apr 2021 00:00:00 -0000
+
+
